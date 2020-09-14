@@ -8,18 +8,16 @@ This program will be used to transfer files from client to server. Server will b
   4. After tests are done, draw figure for each tests case in item#2 where x-axis is concurrency value and y-axis is throughput.
   
   
-Server End Run:
-
+Server End Run: 
 javac -cp . com/sami/Server/*.java
 java -cp . com/sami/Server/FileRecieveServer
 
-Client End Run:
 
+Client End Run : 
 javac -cp . com/sami/Client/*.java
 java -cp . com/sami/Client/ConcurrencyHandler
 
-File creation:
-
+File creation :
 javac -cp . com/sami/creatFile/*.java
 100 files of 10 MB = java -cp . com/sami/creatFile/DataSetCreation
 10 files of 1 GB = java -cp . com/sami/creatFile/DataSetCreationGB
